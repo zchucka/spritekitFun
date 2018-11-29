@@ -16,6 +16,13 @@ class GameViewController: UIViewController {
         super.viewDidLoad()
         
         if let view = self.view as! SKView? {
+            /* MARK: - Scenes, Views, Nodes
+            A SKView shows one or more SKScenes
+            A SKScene shows one or more SKNode
+            Example: SKNode: SKLabelNode, SKSpriteNode
+            */
+            
+            
             // Load the SKScene from 'GameScene.sks'
             if let scene = SKScene(fileNamed: "GameScene") {
                 // Set the scale mode to scale to fit the window
